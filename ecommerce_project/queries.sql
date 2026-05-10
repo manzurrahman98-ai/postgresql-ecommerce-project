@@ -30,7 +30,7 @@
 -- select
 -- 	p.product_name,
 -- 	sum(oi.quantity) as total_sold
--- from product p
+-- from products p
 -- join order_items oi on p.product_id = oi.product_id
 -- group by p.product_name
 -- order by total_sold desc;
